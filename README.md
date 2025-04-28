@@ -7,12 +7,12 @@ This Blender Python script imports vertex data from a CSV file exported by Rende
 ## Requirements
 
 - Blender 2.8 or later
+- latest version of Renderdoc
 - No additional Python modules (uses built-in `csv` and `math` modules)
 
-## Installation
-
-1. Download and install Blender from [blender.org](https://www.blender.org/download/).
-2. Ensure you have a CSV file containing vertex data (e.g., exported from RenderDoc).
+---
+ Ensure you have a CSV file containing vertex data (e.g., exported from RenderDoc).
+---
 
 ## Usage
 
@@ -32,9 +32,5 @@ This Blender Python script imports vertex data from a CSV file exported by Rende
 ## Configuration
 
 - `merge_threshold`: Minimum distance between vertices to consider them the same point (default: `0.01`).
-
-## License
-
-This script is released under the MIT License.
 
 ---
